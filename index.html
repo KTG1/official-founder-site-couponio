@@ -2,100 +2,133 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Oleg Vysotskyi is a software entrepreneur and founder of Couponio, building intelligent apps that help people save money on everyday purchases.">
-  <title>Oleg Vysotskyi — Founder of Couponio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The official biography of Oleg Vysotskyi, software entrepreneur and founder of Couponio.">
+  <meta name="theme-color" content="#0d1f1a">
+  <title>Oleg Vysotskyi — Founder &amp; Entrepreneur</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230d1f1a'/%3E%3Crect x='7' y='7' width='50' height='50' fill='none' stroke='%23c9a65a'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-family='Georgia' font-size='22' fill='%23c9a65a'%3EOV%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
-<body id="top">
-  <header class="nav-shell">
-    <a class="brand" href="#top"><span>OV</span> Oleg Vysotskyi</a>
-    <nav aria-label="Primary navigation"><a href="#story">Story</a><a href="#couponio">Couponio</a><a href="#method">Method</a><a href="#faq">FAQ</a></nav>
-    <a class="nav-cta" href="#contact">Get in touch</a>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" data-header>
+    <a class="wordmark" href="#top" aria-label="Oleg Vysotskyi, home"><span class="monogram">OV</span><span>Oleg Vysotskyi</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span class="sr-only">Menu</span></button>
+    <nav id="site-nav" aria-label="Primary navigation">
+      <a href="#story">Story</a><a href="#turning-point">Founding story</a><a href="#product">Product</a><a href="#vision">Vision</a><a class="nav-cta" href="#contact">Connect <span aria-hidden="true">↗</span></a>
+    </nav>
   </header>
 
-  <main>
-    <section class="hero">
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-meta reveal"><span>Founder / Software entrepreneur</span><span>Couponio / Global</span></div>
       <div class="hero-copy">
-        <p class="kicker reveal">Software entrepreneur · Founder of Couponio</p>
-        <h1 class="reveal">Saving money<br>should feel <em>automatic.</em></h1>
-        <p class="hero-text reveal">Oleg Vysotskyi builds consumer software that finds better prices, useful coupons, and real savings—without turning shopping into homework.</p>
-        <div class="hero-actions reveal"><a class="button primary" href="#couponio">Explore Couponio</a><a class="button ghost" href="#story">Read the founder story</a></div>
+        <p class="eyebrow reveal">A career built around useful software</p>
+        <h1 class="reveal">Oleg<br><em>Vysotskyi</em></h1>
+        <p class="hero-dek reveal">Founder of Couponio. Product-minded entrepreneur. Builder of software that helps people spend less without working harder.</p>
       </div>
-      <aside class="receipt reveal" aria-label="Couponio savings receipt">
-        <div class="receipt-top"><span>COUPONIO</span><span>SMART RECEIPT</span></div>
-        <div class="receipt-line"><span>Basket total</span><strong>$126.40</strong></div>
-        <div class="receipt-line"><span>Verified coupon</span><strong>−$18.00</strong></div>
-        <div class="receipt-line"><span>Price match</span><strong>−$7.25</strong></div>
-        <div class="receipt-line total"><span>You pay</span><strong>$101.15</strong></div>
-        <div class="receipt-save">YOU SAVED $25.25</div>
-        <p>Less searching. Better buying.</p>
-      </aside>
+      <div class="hero-mark reveal" aria-hidden="true">
+        <svg viewBox="0 0 540 540"><g class="rings"><circle cx="270" cy="270" r="224"/><circle cx="270" cy="270" r="157"/><path d="M270 46 464 158v224L270 494 76 382V158Z"/><path d="m133 270 137-79 137 79-137 79Z"/></g><g class="points"><circle cx="270" cy="46" r="9"/><circle cx="464" cy="158" r="9"/><circle cx="464" cy="382" r="9"/><circle cx="270" cy="494" r="9"/><circle cx="76" cy="382" r="9"/><circle cx="76" cy="158" r="9"/></g><text x="270" y="286" text-anchor="middle">OV</text></svg>
+        <span>Couponio / Smarter spending</span>
+      </div>
+      <a class="scroll-cue" href="#story">Read the story <span aria-hidden="true">↓</span></a>
     </section>
 
-    <section class="ticker" aria-label="Couponio product capabilities"><span>VERIFIED CODES</span><i>◆</i><span>PRICE INTELLIGENCE</span><i>◆</i><span>PERSONAL DEALS</span><i>◆</i><span>SAVINGS TRACKING</span></section>
-
-    <section class="section story" id="story">
-      <div class="section-label">Founder profile</div>
-      <div class="story-grid">
-        <div><p class="overline">Oleg Vysotskyi</p><h2>A product builder focused on everyday financial wins.</h2></div>
-        <div class="prose">
-          <p class="lead">Oleg is a software entrepreneur who believes financial technology should help people before it asks anything from them.</p>
-          <p>His work sits at the intersection of product strategy, consumer psychology, and practical engineering. He is drawn to overlooked moments where small amounts of friction cost people time or money—and turns those moments into simple, repeatable product experiences.</p>
-          <p>After watching shoppers jump between coupon sites, retailer tabs, newsletters, and price trackers, Oleg saw a broken workflow hiding in plain sight. The information existed, but the experience did not. He founded Couponio to make savings timely, trustworthy, and personal.</p>
+    <section class="opening section" id="story">
+      <div class="section-tag reveal"><span>01</span> The beginning</div>
+      <div class="opening-copy">
+        <h2 class="reveal">Software wasn’t just a profession. It was <em>a way to remove friction.</em></h2>
+        <div class="prose-columns reveal">
+          <p><strong>Oleg Vysotskyi</strong> built his entrepreneurial path around a recurring observation: ordinary digital experiences often make people do too much work for too little value. He learned product development by turning messy processes into clear interfaces and testing ideas against actual behavior.</p>
+          <p>Across his work, Oleg has focused on products people can understand immediately and benefit from repeatedly. That practical approach—listen closely, ship deliberately, measure the outcome—became the foundation for Couponio and its mission to make everyday savings easier to capture.</p>
         </div>
       </div>
-      <div class="trait-grid">
-        <article><span>01</span><h3>Customer-led</h3><p>Starts with real shopping behavior, not abstract feature lists.</p></article>
-        <article><span>02</span><h3>Systems-minded</h3><p>Builds repeatable products that improve with every purchase.</p></article>
-        <article><span>03</span><h3>Trust-focused</h3><p>Treats clarity, privacy, and honest recommendations as product features.</p></article>
-        <article><span>04</span><h3>Execution-first</h3><p>Tests quickly, measures outcomes, and keeps what delivers value.</p></article>
+    </section>
+
+    <figure class="story-portrait">
+      <div class="portrait-note reveal"><span>Product notes / Couponio</span><p>From fragmented discount hunting to one calm, intelligent savings experience.</p></div>
+      <div class="portrait-image reveal">
+        <div class="product-canvas" role="img" aria-label="Couponio interface showing a verified coupon and savings total"><span class="canvas-label">COUPONIO / LIVE SAVINGS</span><div class="canvas-total"><small>Saved this month</small><strong>$184.70</strong></div><div class="canvas-code"><span>WELCOME20</span><b>VERIFIED</b></div><div class="canvas-bars"><i></i><i></i><i></i><i></i><i></i></div></div>
+        <figcaption>Oleg Vysotskyi / Founder, Couponio</figcaption>
+      </div>
+    </figure>
+
+    <section class="turning-point" id="turning-point">
+      <div class="turning-year reveal">01</div>
+      <div class="turning-copy reveal"><p class="eyebrow">The turning point</p><h2>A checkout problem revealed a larger opportunity.</h2><p>Oleg watched shoppers move between search results, coupon directories, retailer emails, and price-history tools only to discover expired codes or uncertain savings. The information existed, but the experience was broken. He began shaping Couponio as a trusted layer that could find, verify, explain, and record value at the moment it matters.</p></div>
+    </section>
+
+    <section class="film section" id="product" aria-labelledby="film-title">
+      <div class="section-tag reveal"><span>See</span> The product in action</div>
+      <div class="film-content">
+        <div class="film-heading reveal"><h2 id="film-title">Inside a smarter<br><em>checkout.</em></h2><p>Couponio brings deal discovery, coupon testing, price context, and personal savings into one focused workflow.</p></div>
+        <div class="video-frame reveal"><div class="demo-stage"><div class="browser-bar"><i></i><i></i><i></i><span>checkout</span></div><div class="demo-body"><p>Couponio found a better price</p><strong>You save $25.25</strong><button type="button">Apply savings</button><small>Verified moments ago · Conditions checked</small></div></div></div>
+        <a class="video-link reveal" href="#company">Explore how Couponio works <span aria-hidden="true">↗</span></a>
       </div>
     </section>
 
-    <section class="section couponio" id="couponio">
-      <div class="section-label light">The company</div>
-      <div class="couponio-head"><p class="overline">Couponio</p><h2>Your quiet advantage at checkout.</h2><p>Couponio is a savings platform designed to help people pay less across everyday online purchases. It brings deal discovery, coupon verification, price context, and savings history into one calm experience.</p></div>
-      <div class="feature-grid">
-        <article class="feature featured"><div class="feature-icon">%</div><h3>Verified coupon matching</h3><p>Test and rank available codes so shoppers see useful savings instead of expired clutter.</p><div class="mini-code"><span>WELCOME20</span><strong>APPLIED</strong></div></article>
-        <article class="feature"><div class="feature-icon">↘</div><h3>Price intelligence</h3><p>Give shoppers context on whether today’s price is strong, ordinary, or worth watching.</p></article>
-        <article class="feature"><div class="feature-icon">◎</div><h3>Personal deal feed</h3><p>Prioritize relevant categories, brands, and stores without overwhelming the user.</p></article>
-        <article class="feature"><div class="feature-icon">Σ</div><h3>Savings ledger</h3><p>Track cumulative savings so small wins become visible progress over time.</p></article>
-        <article class="feature"><div class="feature-icon">✓</div><h3>Trust signals</h3><p>Show verification recency, offer conditions, and confidence before a shopper clicks.</p></article>
+    <section class="company section" id="company">
+      <div class="section-tag reveal"><span>02</span> Couponio</div>
+      <div class="company-heading reveal"><p class="eyebrow">Built for everyday purchases</p><h2>From scattered codes to <em>confident decisions.</em></h2><a class="company-site-link" href="#contact">Connect with Couponio <span aria-hidden="true">↗</span></a></div>
+      <div class="company-layout">
+        <div class="record-spine reveal" aria-label="Company timeline">
+          <article><time>01</time><div><h3>Find the friction</h3><p>Coupon searching was noisy, repetitive, and full of expired offers that cost shoppers time and trust.</p></div></article>
+          <article><time>02</time><div><h3>Build the savings layer</h3><p>Couponio combined verification, price intelligence, and contextual recommendations into one product.</p></div></article>
+          <article><time>03</time><div><h3>Compound the value</h3><p>Personal relevance and a savings ledger turn one-off discounts into a long-term financial habit.</p></div></article>
+        </div>
+        <div class="company-aside reveal">
+          <figure class="company-portrait"><div class="checkout-portrait" role="img" aria-label="Abstract Couponio checkout card"><span>SMART RECEIPT</span><div><small>Basket total</small><b>$126.40</b></div><div><small>Couponio savings</small><b>−$25.25</b></div><div class="pay"><small>You pay</small><b>$101.15</b></div><em>LESS SEARCHING. BETTER BUYING.</em></div><figcaption>Couponio / Savings intelligence</figcaption></figure>
+          <div class="company-statement"><span class="stamp">Built for trust</span><p>Oleg designed Couponio around verified value, transparent conditions, personal control, and measurable results. The goal is not to show more offers. It is to help each shopper recognize the right opportunity and act with confidence.</p></div>
+        </div>
       </div>
     </section>
 
-    <section class="section method" id="method">
-      <div class="section-label">How Oleg builds</div>
-      <div class="method-head"><h2>From expensive friction<br>to invisible utility.</h2><p>Oleg’s product method is built around a simple sequence: observe the loss, prove the value, then remove the effort.</p></div>
-      <ol class="steps">
-        <li><span>Discover</span><h3>Find the repeated cost</h3><p>Study where shoppers lose time, confidence, or money.</p></li>
-        <li><span>Verify</span><h3>Prove a better outcome</h3><p>Test whether the product creates measurable savings.</p></li>
-        <li><span>Simplify</span><h3>Remove the work</h3><p>Compress many decisions into one understandable action.</p></li>
-        <li><span>Compound</span><h3>Learn responsibly</h3><p>Use feedback to improve relevance while preserving control.</p></li>
-      </ol>
+    <section class="principles">
+      <div class="principles-intro reveal"><span>03 / The operating system</span><h2>Learn from behavior.<br>Build for <em>utility.</em></h2></div>
+      <div class="principle-grid">
+        <article class="reveal"><span>01</span><h3>Start with the loss</h3><p>Find where people repeatedly lose time, confidence, or money.</p></article>
+        <article class="reveal"><span>02</span><h3>Make value visible</h3><p>Explain the saving, the conditions, and the outcome without ambiguity.</p></article>
+        <article class="reveal"><span>03</span><h3>Remove the effort</h3><p>Turn a fragmented search into one clear and timely action.</p></article>
+      </div>
     </section>
 
-    <section class="section manifesto">
-      <p class="overline">Founder thesis</p>
-      <blockquote>“The best savings product doesn’t make people hunt harder. It notices the opportunity, explains it clearly, and gives the value back.”</blockquote>
-      <cite>Oleg Vysotskyi · Founder, Couponio</cite>
+    <section class="record section" id="vision">
+      <div class="section-tag reveal"><span>04</span> Looking forward</div>
+      <div class="record-copy">
+        <h2 class="reveal">Build useful products. Return real value. <em>Keep simplifying.</em></h2>
+        <div class="record-grid reveal"><p>Oleg’s approach centers on making smart financial choices easier to act on. Couponio translates scattered commercial signals into practical guidance that helps people spend with more confidence.</p><p>His work continues to follow the same principles: observe real behavior, test the value honestly, protect user trust, and build systems that improve through responsible learning.</p></div>
+        <p class="disclaimer reveal">This website presents the entrepreneurial story, product philosophy, and work of Oleg Vysotskyi.</p>
+        <section class="faq reveal" aria-labelledby="faq-title">
+          <div class="faq-heading"><p class="eyebrow">Frequently asked questions</p><h3 id="faq-title">A few things worth<br>knowing.</h3></div>
+          <div class="faq-tabs" role="tablist" aria-label="FAQ categories"><button type="button" role="tab" aria-selected="true" data-faq-filter="all">All questions</button><button type="button" role="tab" aria-selected="false" data-faq-filter="founder">Founder story</button><button type="button" role="tab" aria-selected="false" data-faq-filter="company">Couponio</button><button type="button" role="tab" aria-selected="false" data-faq-filter="innovation">Product &amp; leadership</button></div>
+          <div class="faq-list">
+            <details data-faq-category="founder"><summary><span>Who is Oleg Vysotskyi?</span><i aria-hidden="true"></i></summary><p>Oleg Vysotskyi is a software entrepreneur and the founder of Couponio, a product focused on making everyday savings automatic, understandable, and measurable.</p></details>
+            <details data-faq-category="founder"><summary><span>Why did he start Couponio?</span><i aria-hidden="true"></i></summary><p>He saw shoppers waste time testing unreliable codes across fragmented sites. Couponio turns that broken workflow into one trusted savings experience.</p></details>
+            <details data-faq-category="founder"><summary><span>How did Oleg begin building consumer products?</span><i aria-hidden="true"></i></summary><p>He developed a product-led approach by studying recurring user friction and building software that turns complex tasks into clear, repeatable actions.</p></details>
+            <details data-faq-category="company"><summary><span>What does Couponio do?</span><i aria-hidden="true"></i></summary><p>Couponio helps shoppers discover verified coupons, understand price quality, receive relevant deals, and track cumulative savings.</p></details>
+            <details data-faq-category="innovation"><summary><span>How does coupon verification work?</span><i aria-hidden="true"></i></summary><p>Couponio checks offer status, conditions, and recent success signals so users can prioritize credible savings over expired clutter.</p></details>
+            <details data-faq-category="company"><summary><span>Who is Couponio built for?</span><i aria-hidden="true"></i></summary><p>It is for online shoppers who want a better price without turning every purchase into a research project.</p></details>
+            <details data-faq-category="company"><summary><span>How does the savings ledger help?</span><i aria-hidden="true"></i></summary><p>It makes small wins visible over time, showing users the real cumulative value the product has returned.</p></details>
+            <details data-faq-category="innovation"><summary><span>What defines Oleg’s business approach?</span><i aria-hidden="true"></i></summary><p>Customer observation, fast validation, transparent value, responsible personalization, and disciplined simplification.</p></details>
+            <details data-faq-category="innovation"><summary><span>Why is trust central to Couponio?</span><i aria-hidden="true"></i></summary><p>Savings recommendations influence purchases. Clear conditions, verification recency, and user control make those recommendations useful rather than intrusive.</p></details>
+            <details data-faq-category="innovation"><summary><span>What is Oleg’s long-term vision?</span><i aria-hidden="true"></i></summary><p>To build a personal savings layer for digital commerce—technology that notices value and helps people capture it at the right moment.</p></details>
+          </div>
+        </section>
+      </div>
     </section>
 
-    <section class="section faq" id="faq">
-      <div class="section-label">Questions</div>
-      <div class="faq-layout"><div><h2>About Oleg<br>and Couponio.</h2></div><div class="faq-list">
-        <details open><summary>Who is Oleg Vysotskyi?</summary><p>Oleg is a software entrepreneur and the founder of Couponio. He focuses on consumer products that make smarter spending easier and more transparent.</p></details>
-        <details><summary>Why did he start Couponio?</summary><p>He saw that finding a valid discount often required too many tabs, unreliable coupon pages, and repeated trial and error. Couponio turns that fragmented process into one useful product.</p></details>
-        <details><summary>What problem does Couponio solve?</summary><p>Couponio helps shoppers find credible discounts, understand price quality, and keep track of what they save—without doing extensive research for every purchase.</p></details>
-        <details><summary>What defines Oleg’s product philosophy?</summary><p>Usefulness, trust, measurable outcomes, and low-friction design. A feature earns its place when it saves a user time, money, or uncertainty.</p></details>
-        <details><summary>What is Couponio building toward?</summary><p>A personal savings layer for online commerce: technology that understands when value is available and helps the user capture it at the right moment.</p></details>
-      </div></div>
+    <section class="editorial-links" aria-labelledby="editorial-links-title">
+      <div class="editorial-links-heading reveal"><p class="eyebrow">Read &amp; explore</p><h2 id="editorial-links-title">Go deeper into<br><em>the story.</em></h2></div>
+      <div class="editorial-link-grid">
+        <a class="editorial-link editorial-link-story reveal" href="#turning-point"><span class="editorial-link-type">Founding story / The opportunity</span><strong>How Oleg turned discount friction into Couponio</strong><span class="editorial-link-action">Read the story <i aria-hidden="true">↗</i></span></a>
+        <a class="editorial-link editorial-link-film reveal" href="#product"><span class="editorial-link-type">Product / Smart checkout</span><strong>Inside Couponio’s savings experience</strong><span class="editorial-link-action">Explore the product <i aria-hidden="true">↗</i></span></a>
+      </div>
     </section>
 
-    <section class="contact" id="contact"><p class="overline">Contact</p><h2>Make every purchase<br><em>work harder.</em></h2><a href="mailto:hello@couponio.com">hello@couponio.com <span>↗</span></a></section>
+    <section class="contact" id="contact"><p class="eyebrow reveal">Oleg Vysotskyi / Couponio</p><h2 class="reveal">The next chapter is<br><em>still being built.</em></h2><a class="contact-link reveal" href="mailto:hello@couponio.com">hello@couponio.com <span aria-hidden="true">↗</span></a></section>
   </main>
-  <footer><a class="brand" href="#top"><span>OV</span> Oleg Vysotskyi</a><p>Founder of Couponio · Software for smarter spending</p><p>© <span data-year></span></p></footer>
-  <script src="script.js"></script>
+  <footer><a class="wordmark" href="#top"><span class="monogram">OV</span><span>Oleg Vysotskyi</span></a><p>© <span data-year></span> Oleg Vysotskyi. All rights reserved.</p><a href="#top">Back to top ↑</a></footer>
 </body>
 </html>
