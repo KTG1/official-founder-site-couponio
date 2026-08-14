@@ -22,6 +22,16 @@ nav.addEventListener("click", (event) => {
 
 document.querySelector("[data-year]").textContent = new Date().getFullYear();
 
+const newsletterForm = document.querySelector("[data-newsletter-form]");
+const newsletterNote = document.querySelector("[data-newsletter-note]");
+newsletterForm?.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const email = new FormData(newsletterForm).get("email");
+  newsletterNote.textContent = `You're on the list, ${email}. Watch your inbox.`;
+  newsletterNote.classList.add("is-success");
+  newsletterForm.reset();
+});
+
 const faqTabs = [...document.querySelectorAll("[data-faq-filter]")];
 const faqItems = [...document.querySelectorAll("[data-faq-category]")];
 
